@@ -35,87 +35,117 @@ interface Observation {
 // --- DATA (EASY TO SWAP) ---
 const DATA = {
   personal: {
-    name: "Alex Reed",
-    tagline: "Bridging human needs and technical constraints through data-driven product leadership.",
-    bio: "I am a Product Manager with 6+ years of experience in high-growth SaaS environments. My specialty lies at the intersection of UX research, technical feasibility, and business viability. I've successfully scaled products from MVP to millions in ARR by maintaining a relentless focus on the 'Why' behind every feature.",
-    photoUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop"
+    name: "Kothapally Akash",
+    tagline: "Driving product outcomes by translating ambiguous user and business problems into scalable, data-backed solutions.",
+    bio: "I am a Product Manager with experience building and scaling internal and B2B products across fintech, Generate AI, and SaaS. I specialize in owning ambiguous problem spaces end-to-end—combining user research, data analysis, and technical judgment to deliver measurable business impact. Across roles, I’ve led 0→1 and 1→N initiatives, improved operational efficiency, and driven growth by staying deeply grounded in the underlying ‘why’ behind every product decision.",
+    photoUrl: "images/profile/facepic.jpeg"
   },
   social: {
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/kothapally-akash-37ba501a6/",
     twitter: "https://twitter.com",
-    email: "mailto:alex.reed@pm.com"
+    email: "mailto:kda10@iitbbs.ac.in"
   },
   education: [
     {
-      school: "Stanford University",
-      years: "2014 - 2018",
-      major: "B.S. in Computer Science",
-      description: "Concentration in Human-Computer Interaction. Member of the Stanford Product Club and Entrepreneurship Society."
+      school: "IIT Bhubaneswar",
+      years: "2018 - 2022",
+      major: "B.Tech in Computer Science and Engineering",
+      description: "Graduated with a strong foundation in computer science, data structures, and systems thinking. Actively involved in entrepreneurship initiatives and led large-scale student-driven programs focused on innovation and execution."
     }
   ],
   experience: [
     {
-      company: "TechFlow Systems",
-      role: "Senior Product Manager",
-      dates: "Jan 2021 - Present",
+      company: "Arka Group",
+      role: "Senior Product and Tech Consultant",
+      dates: "Aug 2024 - Present",
       summary: [
-        "Led cross-functional team of 15 to launch 'Flow Intelligence', an AI-first analytics suite that reached $2M ARR within 12 months.",
-        "Spearheaded user research initiatives that identified key friction points, resulting in a 25% reduction in onboarding churn.",
-        "Implemented a data-driven prioritization framework using RICE score to align stakeholders on the quarterly roadmap."
+      "Reduced customer acquisition cycle time by 65% and eliminated 90% of physical site visits by identifying offline sales friction and owning the end-to-end development of a self-serve solar cost estimation and savings platform.",
+      "Drove a 9× increase in qualified lead volume, 120% growth in active users, and 3× revenue growth by designing and launching a referral-driven growth loop aligned with user incentives and unit economics.",
+      "Enabled rapid execution in a zero-to-one startup environment by prioritizing initiatives based on impact vs. effort trade-offs and aligning founders, sales, and engineering teams on clear success metrics."
       ]
     },
     {
-      company: "Nexus Labs",
-      role: "Product Manager (Growth)",
-      dates: "Aug 2018 - Dec 2020",
+      company: "DBS Bank",
+      role: "Product Associate",
+      dates: "Aug 2022 - Jul 2024",
       summary: [
-        "Optimized the core referral loop, driving a 40% increase in organic user acquisition over 6 months.",
-        "Owned the A/B testing strategy for the checkout flow, improving conversion rates by 18%.",
-        "Collaborated directly with the CEO to define long-term product vision and market positioning."
+      "Improved trader and analyst workflow efficiency by 45% and increased NPS by 25% by owning high-impact feature enhancements for an internal trading and analytics platform used by 1,000+ users.",
+      "Cut average ticket resolution time by 50% by defining problem statements, evaluation metrics, and rollout strategy for a generative-AI-powered internal support assistant, achieving ~70% model precision in the first production release.",
+      "Maintained 100% SLA compliance and influenced roadmap decisions for an enterprise observability platform by translating usage analytics, incident data, and stakeholder feedback into prioritized product initiatives, contributing to a fast-tracked promotion."
+      ]
+    },
+    {
+      company: "Upraised",
+      role: "Product Fellow",
+      dates: "March 2023 - Dec 2023",
+      summary: [
+      "Ranked in the top 1% of the cohort by applying structured problem discovery and design thinking frameworks to produce 10+ PRDs and wireframes across e-commerce, ed-tech, and gaming domains.",
+      "Identified usability bottlenecks through user research, product teardowns, and journey mapping, and proposed data-backed solutions balancing user needs with business constraints."
       ]
     }
   ],
   caseStudies: [
     {
-      title: "AI Personalization Engine",
-      tag: "Strategy & ML",
-      summary: "A technical deep dive into replacing heuristic-based recommendations with a collaborative filtering model.",
-      docUrl: "#",
-      previewUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop"
+      title: "WinZO | Serving Underserved Women Gamers in Tier-2/3 India",
+      tag: "Case Study with user Research & Product Strategy",
+      summary: "Explored why women users in Tier-2/3 markets were underserved on WinZO by identifying distinct female gamer personas, isolating key participation barriers, and evaluating product directions to improve inclusion, comfort, and sustained engagement.",
+      docUrl: "https://docs.google.com/presentation/d/1Uhp2UGy5LcsFocd70WW-6pF8jtGkbnX9iVJR7QrhZcU/edit",
+      previewUrl: "images/casestudies/Winzopreview.png"
     },
     {
-      title: "SaaS Market Expansion",
-      tag: "GTM Strategy",
+      title: "MakeMyTrip | Cracking the Intercity Cab Opportunity in India",
+      tag: "Case Study with marketplace Strategy & Digitization",
       summary: "Product-led growth strategy for entering the EMEA market, including localization and compliance roadmaps.",
-      docUrl: "#",
-      previewUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+      docUrl: "https://docs.google.com/presentation/d/1wSHlYKI0Q5ccrCsG_2N6FC-yrtstDDwjMUZ6k79m3eQ/edit",
+      previewUrl: "images/casestudies/mmtpreview.png"
     },
     {
-      title: "The 'Nexus' Redesign PRD",
+      title: "The Netflix Redesign PRD | Social Discovery–Led Retention PRD",
       tag: "PRD & UX",
-      summary: "Comprehensive requirements for a complete UI overhaul focusing on accessibility and enterprise scalability.",
-      docUrl: "#",
-      previewUrl: "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=800&auto=format&fit=crop"
+      summary: "Addressed content discovery fatigue impacting user retention by proposing a social-driven recommendation layer leveraging friend preferences and viewing signals to reduce choice overload and increase viewing confidence.",
+      docUrl: "https://docs.google.com/presentation/d/1bzPeJ7_rFbplswbXh72caWGmMd6VNuGRxgxDOvRmOhA/edit",
+      previewUrl: "images/casestudies/netflixpreview.png"
+    },
+    {
+      title: "Swiggy | Increasing Average Order Value Through Rewards",
+      tag: "PRD on increasing average ticket size with focus on Growth & Monetization",
+      summary: "Investigated drivers behind low average ticket sizes on Swiggy and designed a rewards-linked incentive framework that nudges users toward higher-value baskets without compromising order frequency..",
+      docUrl: "https://docs.google.com/document/d/1reSmvzq9DYMZyT2b9xGe3AXuw8sKpuVhEbqz4nu3oVk/edit",
+      previewUrl: "images/casestudies/Swiggypreview.png"
+    },
+    {
+      title: "Marvel Strike Force | Gameplay Loop & Reward System Teardown",
+      tag: "Product Teardown on game Economy & Engagement",
+      summary: "Conducted a structured teardown of Marvel Strike Force to understand core gameplay loops, reward mechanics, and progression systems, identifying why players remain engaged long-term and where reward pacing could be optimized.",
+      docUrl: "https://docs.google.com/presentation/d/1jIdVuljuNHYU5B-prwnJlcbAwOXuNfhgWQyWdrn3Jm0/edit",
+      previewUrl: "images/casestudies/MSFpreview.jpg"
+    },
+    {
+      title: "Agrimart | Eliminating Middlemen in Agricultural Marketplaces",
+      tag: "Case Study with 0→1 marketplace Design",
+      summary: "Studied inefficiencies in agricultural supply chains where middlemen captured disproportionate value, and proposed a direct-to-consumer marketplace model enabling farmers to sell produce transparently to end customers.",
+      docUrl: "https://docs.google.com/presentation/d/1tbmnIltbmQi-6FkEVCpJlnYHLxocVdAy/edit",
+      previewUrl: "images/casestudies/Agrimartpreview.png"
     }
   ],
   observations: [
     {
       id: "obs1",
-      title: "Frictionless Onboarding",
-      imageUrl: "https://images.unsplash.com/photo-1551288049-bbbda5366391?q=80&w=800&auto=format&fit=crop",
-      description: "Analyzing the psychological impact of 'progressive disclosure' in enterprise tools to reduce cognitive load."
+      title: "Spotify's seamless Device Control Across Contexts",
+      imageUrl: "images/casestudies/Spotifypreview.png",
+      description: "Observed how Spotify’s device-switching experience reduces friction across multi-device usage by clearly surfacing the active playback context and allowing users to control music seamlessly across environments."
     },
     {
       id: "obs2",
-      title: "The Power of Defaults",
-      imageUrl: "https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=800&auto=format&fit=crop",
-      description: "How smart defaults drive 90% of user behavior and the importance of 'nudging' for retention."
+      title: "MMT's inspiration Over Intent in Travel Discovery",
+      imageUrl: "images/casestudies/netflixobpreview.png",
+      description: "Noticed how MakeMyTrip’s 'Where to Go' feature caters to users without a fixed destination by shifting discovery from intent-based search to inspiration-driven exploration."
     },
     {
       id: "obs3",
-      title: "Dark Mode Accessibility",
-      imageUrl: "https://images.unsplash.com/photo-1614850523296-e8c041de4398?q=80&w=800&auto=format&fit=crop",
-      description: "Technical challenges of maintaining WCAG compliance across high-contrast dark themes."
+      title: "Netflix's explicit Feedback as a Recommendation Signal",
+      imageUrl: "images/casestudies/mmtobpreview.png",
+      description: "Analyzed how Netflix’s introduction of explicit feedback signals (like/dislike) improves recommendation quality by capturing user intent more accurately than passive consumption alone."
     },
     {
       id: "obs4",
@@ -254,7 +284,7 @@ const App = () => {
       {/* EXPERIENCE */}
       <section id="experience" className="py-32 bg-slate-50">
         <div className="container mx-auto px-6">
-          <SectionHeader title="Experience" subtitle="Strategic leadership in the trenches of product development." />
+          <SectionHeader title="Experience" subtitle="Strategic leadership in the trenches of product management and development." />
           <div className="max-w-4xl mx-auto space-y-12">
             {DATA.experience.map((exp, idx) => (
               <div key={idx} className="group grid md:grid-cols-3 gap-8 p-8 md:p-12 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300">
@@ -282,7 +312,7 @@ const App = () => {
       {/* CASE STUDIES */}
       <section id="cases" className="py-32 bg-white">
         <div className="container mx-auto px-6">
-          <SectionHeader title="Case Studies" subtitle="Deep dives into strategy, design, and outcome." />
+          <SectionHeader title="Case Studies and PRDs" subtitle="Deep dives into strategy, design, and outcome." />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {DATA.caseStudies.map((study, idx) => (
               <div key={idx} className="group bg-slate-50 rounded-[2rem] overflow-hidden border border-slate-100 flex flex-col hover:bg-white hover:shadow-2xl transition-all">
@@ -307,7 +337,7 @@ const App = () => {
       {/* OBSERVATIONS */}
       <section id="insights" className="py-32 bg-slate-950 text-white relative">
         <div className="container mx-auto px-6 relative z-10">
-          <SectionHeader title="Visual Insights" subtitle="Occasional musings on UI psychology and friction." light />
+          <SectionHeader title="Product Observations" subtitle="Occasional product observations in different applications." light />
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {DATA.observations.map((obs) => (
               <div 
@@ -333,7 +363,7 @@ const App = () => {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,#4f46e520,transparent)]"></div>
             <div className="relative z-10">
               <h2 className="text-4xl md:text-7xl font-black mb-8 tracking-tighter leading-none">Let's build<br />what's next.</h2>
-              <p className="text-slate-400 text-lg md:text-xl mb-12 max-w-lg mx-auto italic">"The best way to predict the future is to create it."</p>
+              <p className="text-slate-400 text-lg md:text-xl mb-12 max-w-lg mx-auto italic">"Contact me directly on my mobile +918018087510"</p>
               <div className="flex flex-wrap justify-center gap-6">
                 <a href={DATA.social.email} className="px-10 py-5 bg-white text-slate-950 rounded-2xl font-black hover:bg-indigo-500 hover:text-white transition-all transform hover:-translate-y-1">Send Email</a>
                 <a href={DATA.social.linkedin} target="_blank" className="px-10 py-5 bg-slate-900 border border-slate-800 rounded-2xl font-black hover:border-indigo-500 transition-all">LinkedIn</a>
@@ -344,7 +374,7 @@ const App = () => {
             <p>&copy; {new Date().getFullYear()} {DATA.personal.name}</p>
             <div className="flex gap-8">
               <a href={DATA.social.twitter} className="hover:text-indigo-600 transition-colors">Twitter / X</a>
-              <span>Based in SF</span>
+              <span>Based in India</span>
             </div>
           </div>
         </div>
